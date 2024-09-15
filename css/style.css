@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap');
+
+
+.manrope-<uniquifier> {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  
+  
+.dm-sans-<uniquifier> {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  body p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  /* top header code start */
+  
+  .top-header{
+    width: 100%;
+    background: #1c1b1f;
+    color: white;
+  }
+
+  .top-header p{
+    color: #878c8f;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .top-header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0px;
+  }
+
+  .top-header-social a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .top-header-social .fa-twitter{
+    margin-left: 20px;
+  }
+
+  .top-header-social .fa-google-plus-g{
+    margin-left: 20px;
+  }
+
+
+  .top-header-left{
+    display: flex;
+  }
+
+  .top-header-contact{
+    display: flex;
+    margin-left: 50px;
+  }
+
+  .top-header-contact a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .top-header-contact p{
+    margin-left: 10px;
+  }
+
+
+  .top-header .call-icon{
+    display: flex;
+    margin-left: ;
+    align-items: center;
+  }
+
+  .top-header .email-icon{
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+  }
+  
+  .top-header .twitter-icon{
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+  }
+
+  /* top header code end */
+
+  header{
+    width: 100%;
+    background: url(../img/cover.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+  background: url(../img/nav-bar.png) no-repeat;
+    color: white;
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+
+.navbar .container{
+  padding: 0px 0px;
+}
+
+.navbar-nav .nav-link{
+  color: white;
+  margin-left: 40px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover{
+  color:#0bf197;
+
+}
+
+.nav-line{
+  background: rgb(172, 171, 171);
+  width: 1px;
+  height: 30px;
+}
+
+.nav-icon a{
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.nav-icon a:hover{
+  color: #0bf197;
+  transition: 0.5s;
+
+}
+ 
+.navbar .btn{
+  border-radius: 0px !important;
+  margin-left: 50px;
+  background: #0bf197;
+  border: 2px solid #0bf197;
+  padding: 12px 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  position: relative;
+  transition: 0.7s;
+}
+
+.navbar .btn:hover {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  transition: 0.7s;
+}
+
+/* navber section code end */
+
+/* banner section code start */
+
+
+
+.banner-section .cus-height{
+  height: 83vh;
+}
+
+.banner-section h2{
+  font-family: "Manrope", sans-serif;
+  color: #ffffff;
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.banner-section h2 span{
+  color: #0bf197;
+}
+
+.banner-section p{
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 30px 0px 40px;
+}
+
+.banner-section .btn{
+  border-radius: 0px !important;
+  background: #0bf197;
+  border: 2px solid #0bf197;
+  padding: 12px 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  transition: 0.7s;
+}
+
+.banner-section .btn:hover {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  transition: 0.7s;
+}
+
+/*service list code start */
+
+.service-list {
+  width: 100%;
+  position: relative;
+  display: block;
+  padding: 120px 0 90px;
+  z-index: 1;
+}
+
+.vertical-text h3{
+  font-family: "Manrope", sans-serif;
+  font-size: 110px;
+  font-weight: 800;
+  color:#f4f1ee ;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 215px;
+  left: -60px;
+}
+
+.tag-line-icon{
+  display: flex;
+  justify-content: center;
+  color: #0bf197;
+  align-items: center;
+}
+
+.tag-line-icon p{
+  margin: 0px 10px 0px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.service-list .underline{
+  background: #0bf197;
+  width: 35px;
+  height: 3px;
+  margin: 10px auto;
+  transition: 0.7s;
+}
+
+.service-list:hover .underline{
+  width: 85px;
+  transition: 0.7s;
+}
+
+.tittle-tag-line h2{
+  font-family: "Manrope", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.service-list .col-lg-3{
+  padding: 0px 15px !important;
+}
+
+.service-card-tittle h2{
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.service-card-p p{
+  color:#6C6B6F;
+  margin: 10px 0px;
+}
+
+.service-content-box {
+  position: relative;
+  display: block;
+}
+
+
+
+.service-content-box {
+  position: relative;
+  display: block;
+  margin-top: -50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #dadcdd;
+  padding: 43px 30px 25px;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+  z-index: 1;
+}
+
+.service-content-box::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background-color: white;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+  z-index: -1;
+}
+
+.service-img-box img{
+  width: 100% !important;
+}
+
+.service-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  top: -15px;
+  left: 30px;
+  background-color:#0bf197;
+  z-index: 2;
+}
+
+.service-icon span{
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  transition: all 500ms linear;
+  transition-delay: 0.1s;
+  transform: scale(1);
+}
+
+.service-card:hover .service-icon span {
+  transform: scale(0.9);
+}
